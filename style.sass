@@ -1,0 +1,1532 @@
+/*------------------------------------------Общие параметры-----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,500i,600&display=swap'), url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&display=swap')
+
+$hueColor: #f44336
+$greyColor: #f7f7f7
+
+html,
+body
+  height: 100%
+
+
+.container
+  min-height: 100%
+  display: flex
+  flex-direction: column
+
+.top
+  flex-grow: 1
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+a
+  text-decoration: none
+
+
+.center_1
+  padding: 0 calc(50% - 487px)
+
+.center_2
+  padding: 0 calc(50% - 587px)
+
+
+.clearfix:after
+  content: ""
+  display: table
+  clear: both
+
+
+
+
+
+
+
+/*--------------------------------Остальное----------------------------------------------*/
+
+
+.contacts_index
+  display: flex
+  justify-content: space-between
+  height: 83px
+  align-items: center
+  padding-top: 28px
+
+
+
+.block_1
+  height: 722px
+  background-image: url(img/bcg.jpg)
+
+
+.historical_index
+  font-family: Poppins
+  font-size: 36px
+  font-weight: 500
+  letter-spacing: 0.01em
+  color: #ffffff
+  line-height: 18px
+
+.logo_styles
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-start
+  width: 170px
+  height: 46px
+  margin-top: 5px
+
+.games_style
+  font-family: Poppins
+  font-size: 15px
+  //font-weight: 500
+  letter-spacing: 2em
+  color: #ffffff
+  text-transform: uppercase
+  margin-left: 2px
+
+
+.phone_image_index
+  height: 25px
+  width: 17px
+  margin-right: 14px
+
+
+.mail_image_index
+  height: 19px
+  width: 25px
+  margin-right: 14px
+
+
+.text_number_index
+  font-family: Roboto Condensed
+  margin-top: 4px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #ffffff
+
+.search_block_index_1
+  display: flex
+  width: 208px
+  justify-content: space-between
+  align-items: center
+
+
+.search_button
+  background-image: url(img/search_img.png)
+  height: 38px
+  width: 50px
+  background-position: center
+  background-repeat: no-repeat
+  border: 1px solid white
+
+
+.search_text_index
+  font-family: Roboto Condensed
+  font-size: 16.7px
+  font-weight: 400
+  letter-spacing: 0.01em
+  background-color: #2a2b38
+  border-style: none
+  font-size: 16.7px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #ffffff
+  width: 158px
+  height: 38px
+  padding-left: 16px
+  padding-right: 16px
+  border: 1px solid white
+  outline: none
+
+.search_text_index::-webkit-input-placeholder
+  opacity: 1
+  color: white
+  transition: opacity 0.3s ease
+
+
+.search_text_index:focus::-webkit-input-placeholder
+  opacity: 0
+  transition: opacity 0.3s ease
+
+
+.mail_text_index
+  font-family: Roboto Condensed
+  font-size: 16.7px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #ffffff
+
+
+.mail_index
+  display: flex
+
+
+.number_index
+  display: flex
+
+.Email_footer_left,
+.Name_footer_right,
+.Email_footer_right,
+.Message_footer_right
+  outline: none
+
+//===========стилизация первого меню (header)-------------------------------
+
+.main_menu__list
+  list-style-type: none
+
+.main_menu__link
+  text-decoration: none
+  font-family: Roboto Condensed
+  font-size: 16.7px
+  line-height: 22px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #000000
+
+
+.main_menu__link:hover
+  color: white
+  border-bottom: 3px solid white
+  padding-bottom: 22px
+
+.main_menu
+  display: flex
+  justify-content: space-between
+
+.menu_index
+  width: 511px
+
+.menu__position
+  height: 78px
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  padding-top: 10px
+
+
+.hr_white
+  height: 1px
+  width: 100%
+  top: 160px
+  background-color: black
+  display: flex
+  justify-content: space-between
+  border-bottom: 1px solid white
+  position: absolute
+  z-index: 1
+
+//------Текст главной страницы(header)-------------------------------------
+
+.main__block_pos
+  height: 277px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  margin-top: 134px
+
+.block__main_text
+  height: 36px
+
+
+.white_small__hr
+  width: 80px
+  height: 2px
+  background-color: #ffffff
+  margin-left: 12px
+
+.main__text
+  font-family: Roboto Condensed
+  font-size: 18px
+  line-height: 48px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #ffffff
+
+.main__title
+  font-family: "Poppins"
+  font-size: 60px
+  line-height: 48px
+  font-weight: 500
+  letter-spacing: 0.01em
+  color: #ffffff
+
+.circles
+  display: flex
+  justify-content: space-between
+  width: 208px
+
+.circle
+  width: 40px
+  height: 40px
+  border: 2.0px solid #ffffff
+  border-radius: 50%
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: .2s
+
+.circle:hover
+  border: 2.0px solid $hueColor
+
+.circle:hover .social_link_generalization
+  color: $hueColor
+
+.social_link_generalization
+  color: #ffffff
+
+
+.social_link1
+  width: 9px
+  height: 15px
+  margin-bottom: 1px
+
+.social_link2
+  width: 15px
+  height: 13px
+  margin-bottom: 1px
+
+.social_link3
+  width: 14px
+  height: 14px
+  margin-bottom: 2px
+
+.social_link4
+  width: 19px
+  height: 11px
+  margin-bottom: 4px
+
+//----------------------------Block_2------------------------------------
+
+.block_2
+  display: flex
+  margin-top: 80px
+  margin-bottom: 80px
+  justify-content: space-between
+
+.image_about_block_2
+  background-image: url("img/block_2_main_img.jpg")
+  background-repeat: no-repeat
+  width: 540px
+  height: 338px
+
+.about_block_2
+  font-family: Poppins
+  font-size: 36px
+  line-height: 36px
+  font-weight: 500
+  color: #f44336
+
+.about_text_2
+  font-family: "Roboto Condensed"
+  font-size: 12px
+  line-height: 24px
+  font-weight: 300
+  letter-spacing: 0.01em
+  color: #999999
+
+.text__only_block2
+  min-height: 293px
+  width: 398px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  padding-top: 10px
+
+//----------------Block_3 styles----------------------------------
+
+.block_3
+
+  background-color: $greyColor
+
+
+.new__label
+  font-family: Poppins
+  font-size: 36px
+  line-height: 48px
+  font-weight: 500
+  color: #f44336
+  text-align: center
+  margin-bottom: 87px
+  padding-top: 92px
+
+.services_title
+  font-family: Poppins
+  font-size: 16px
+  //line-height: 24px
+  font-weight: 500
+  letter-spacing: 0.01em
+  color: #000000
+  transition: .2s
+
+.services_text
+  font-family: Roboto Condensed
+  font-size: 12px
+  line-height: 18px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #999999
+
+.services_subpunct
+  width: 102px
+  height: 102px
+  background-color: #e1e1e1
+  border: 1.0px solid #acacac
+  border-radius: 50%
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: .2s
+
+.puncts_block_3
+  display: flex
+  justify-content: space-between
+
+.punct
+  display: flex
+  margin-bottom: 69px
+
+
+.punct:last-child
+  margin-bottom: 106px
+
+.punct:hover
+  cursor: pointer
+
+.punct:hover .services_title
+  color: $hueColor
+
+.punct:hover .services_subpunct
+  background-color: $hueColor
+
+.left__block_punct,
+.right__block_punct
+  width: 450px
+
+
+.punct__block_text_and_title_right
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-start
+  width: 282px
+  height: 88px
+  margin-left: 66px
+
+.punct__block_text_and_title_left
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-end
+  width: 282px
+  min-height: 88px
+  text-align: end
+  margin-right: 66px
+
+
+//----------------Block_4 Styles--------------------
+
+.games
+  display: flex
+  justify-content: space-between
+
+.block_4
+  margin-bottom: 186px
+
+.game
+  width: 271px
+  min-height: 481px
+  transition: .2s
+
+.game_img_size
+  width: 271px
+  height: 376px
+  border: 1.0px solid #acacac
+
+
+.cart_game_text
+  width: 271px
+  min-height: 105px
+  background-color: $greyColor
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  padding-top: 12px
+  padding-bottom: 13px
+  text-align: center
+  padding-right: 42px
+  padding-left: 42px
+
+.game_name
+  font-family: Poppins
+  font-size: 14px
+  line-height: 23px
+  font-weight: 500
+  letter-spacing: 0.01em
+  color: #000000
+
+.game:hover
+  box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16)
+  background-color: #ffffff
+
+.game:hover .game_img_size
+  filter: brightness(70%)
+
+
+.buy_style
+  display: block
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 130px
+  height: 30px
+  background-color: #e1e1e1
+  border: 1.0px solid #acacac
+  font-family: Poppins
+  font-size: 14.1px
+  line-height: 24px
+  font-weight: 500
+  letter-spacing: 0.01em
+  color: #666666
+  transition: .2s
+
+
+.buy_style:hover
+  background-color: $hueColor
+  color: white
+
+.game1_image
+  background-image: url("img/assasin_image.jpg")
+  background-repeat: no-repeat
+
+.game2_image
+  background-image: url("img/tomb_reder_image.jpg")
+  background-repeat: no-repeat
+
+.game3_image
+  background-image: url("img/ryse_image.jpg")
+  background-repeat: no-repeat
+
+.game4_image
+  background-image: url("img/war_craft_image.jpg")
+  background-repeat: no-repeat
+
+//------------------------------Block 5 styles------------------------------------
+
+.block_5
+  background-image: url("img/block5_bcg_img.jpg")
+  min-height: 537px
+
+.block_5_content
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  padding-bottom: 98px
+  padding-top: 85px
+
+.block_5_title
+  font-family: Poppins
+  font-size: 48px
+  line-height: 48px
+  font-weight: 500
+  color: #ffffff
+  margin-bottom: 90px
+
+.block_5_text
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 24px
+  font-weight: 300
+  color: #ffffff
+  width: 935px
+  text-align: center
+  margin-right: 80px
+  margin-left: 80px
+  margin-bottom: 38px
+
+.block_text_and_arrows
+  display: flex
+  justify-content: space-between
+
+.caption_5
+  font-family: Roboto Condensed
+  font-size: 16px
+  font-weight: 300
+  color: #ffffff
+  text-transform: uppercase
+
+.chevron_block
+  width: 37px
+  height: 37px
+  border: 1.0px solid #ffffff
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 16px
+  transition: .2s
+
+.chevron_block:hover
+  border: 1.0px solid $hueColor
+
+.chevron_block:hover .chevro_arrow
+  color: $hueColor
+
+.chevro_arrow
+  height: 17px
+  width: 11px
+  color: #ffffff
+
+.chevro_right_arrow
+  margin-left: 2px
+
+.fon_quote
+  font-size: 42px
+  opacity: 0.7
+  color: #ffffff
+  margin-bottom: 35px
+
+//---------------------News and Events block styles--------------------------------
+
+.blocks_news
+  display: flex
+  padding-bottom: 96px
+
+.left_block_news
+  margin-right: 92px
+
+.new__label_block6
+  font-family: Poppins
+  font-size: 36px
+  line-height: 48px
+  font-weight: 500
+  color: #f44336
+  text-align: center
+  margin-bottom: 92px
+  padding-top: 97px
+
+.title_news
+  font-family: Poppins
+  font-size: 24px
+  line-height: 48px
+  font-weight: 500
+  color: #000000
+  margin-bottom: 30px
+
+.news
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 475px
+  margin-bottom: 49px
+
+.data
+  width: 98px
+  height: 139px
+  background-color: $greyColor
+  border: 1.0px solid #e8e8e8
+  border-radius: 49.0px
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+
+.data1
+  font-family: Poppins
+  font-size: 32px
+  font-weight: 500
+
+.data2
+  font-family: Poppins
+  font-size: 14px
+  font-weight: 500
+  color: #9e9e9e
+
+.data3
+  font-family: Poppins
+  font-size: 13px
+  font-weight: 500
+  font-style: italic
+  color: #9e9e9e
+
+.data_title
+  width: 308px
+  min-height: 74px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.data_title1
+  font-family: Roboto Condensed
+  font-size: 16px
+  font-weight: 300
+  color: #f44336
+
+.data_text
+  font-family: Roboto Condensed
+  font-size: 14px
+  font-weight: 300
+  color: #9e9e9e
+  line-height: 22px
+
+.quotes
+  width: 44px
+  display: flex
+  justify-content: space-between
+
+.quot_arrow
+  font-size: 34px
+  font-weight: 500
+  color: #000000
+
+.title_quotes_position
+  display: flex
+  justify-content: space-between
+  margin-right: 35px
+
+.right_block_news
+  width: 576px
+
+
+.summary__featured_news
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2)
+  min-height: 44px
+  background-color: #ffffff
+  border: 1.0px solid #ffffff
+  border-radius: 4.0px
+  font-family: Roboto Condensed
+  font-size: 16px
+  font-weight: 300
+  color: #000000
+  display: flex
+  align-items: center
+  outline: none
+  padding-left: 14px
+  padding-right: 14px
+  margin-bottom: 4px
+
+.summary__featured_news::-webkit-details-marker
+  display: none
+
+.summary__featured_news::before
+  content: ""
+  background-image: url("img/plus-solid.svg")
+  background-repeat: no-repeat
+  min-height: 10px
+  width: 10px
+  margin-right: 10px
+
+.summary__featured_news:hover
+  cursor: pointer
+
+.details_featured_news[open] > .summary__featured_news::before
+  content: ""
+  background-image: url("img/minus-solid.svg")
+  background-repeat: no-repeat
+  height: 10px
+  width: 10px
+  margin-right: 10px
+
+.summary_text_news
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 24px
+  font-weight: 300
+  color: #505050
+
+.summary__text_block
+  background-color: #f5f5f5
+  padding-top: 39px
+  padding-bottom: 43px
+  padding-left: 13px
+  padding-right: 23px
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2)
+  border-left: 1.0px solid #ffffff
+  border-right: 1.0px solid #ffffff
+  border-bottom: 1.0px solid #ffffff
+  border-bottom-left-radius: 4.0px
+  border-bottom-right-radius: 4.0px
+  margin-bottom: 4px
+  margin-top: -7px
+
+.images__features
+  margin-bottom: 28px
+
+.screen2:hover,
+.screen3:hover,
+.screen1:hover
+  filter: opacity(70%)
+
+//----------------------------Our Team styles block--------------------------------
+
+.new__label_block7
+  font-family: Poppins
+  font-size: 36px
+  line-height: 48px
+  font-weight: 500
+  color: #f44336
+  text-align: center
+  margin-bottom: 61px
+  padding-top: 97px
+
+.character_block_pos
+  width: 271px
+  min-height: 522px
+
+//.character_block_pos:hover
+//  box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16)
+//  background-color: #ffffff
+//
+//.character_block_pos:hover .character_img_size
+//  filter: brightness(70%)
+
+.character1_image
+  background-image: url("img/person1.jpg")
+  background-repeat: no-repeat
+.character2_image
+  background-image: url("img/person2.jpg")
+  background-repeat: no-repeat
+.character3_image
+  background-image: url("img/person3.jpg")
+  background-repeat: no-repeat
+.character4_image
+  background-image: url("img/person4.jpg")
+  background-repeat: no-repeat
+
+.character_img_size
+  width: 271px
+  height: 405px
+
+
+.character_text_content
+  width: 271px
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  padding-top: 27px
+
+
+
+.person_name
+  font-family: Poppins
+  font-size: 24px
+  font-weight: 500
+  color: #f44336
+  margin-bottom: 3px
+.person_name:hover
+  text-decoration: underline
+
+
+.person_name2
+  font-family: Roboto Condensed
+  font-size: 16px
+  font-weight: 300
+  color: #838383
+  margin-bottom: 14px
+
+.link_to__style:hover
+  border: 2px solid $hueColor
+
+.link_to__style:hover .link_person
+  color: $hueColor
+
+.link_to__style
+  display: block
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 30px
+  height: 30px
+  border: 2.0px solid black
+  margin-right: 17px
+  transition: .2s
+
+.link_to__style:last-of-type
+  margin-right: 0px
+
+.link_person
+  color: black
+
+.person__links_block
+  display: flex
+
+.characters
+  display: flex
+  justify-content: space-between
+
+.block_7_team
+  background-color: $greyColor
+  padding-bottom: 80px
+  position: relative
+.up_arrow
+  position: absolute
+  top: -15px
+  right: 40px
+
+//---------------------------------Block 8----------------------------------------
+
+
+.block_8
+  height: 313px
+  background-image: url("img/bcg__img_block_subscribe.jpg")
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  padding-bottom: 80px
+  padding-top: 86px
+.subscribe_title
+  font-family: Poppins
+  font-size: 48px
+  font-weight: 500
+  color: #ffffff
+
+.Email_footer_left
+  width: 499px
+  height: 55px
+  background-color: #ffffff
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 48px
+  font-weight: 300
+  color: #8e8e8e
+  padding-left: 30px
+  padding-right: 30px
+  margin-right: 12px
+
+.Email_footer_left::-webkit-input-placeholder
+  opacity: 1
+  transition: opacity 0.3s ease
+
+
+.Email_footer_left:focus::-webkit-input-placeholder
+  opacity: 0
+  transition: opacity 0.3s ease
+
+.Subscribe_footer_left
+  width: 119px
+  height: 53px
+  background-color: #f44336
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 48px
+  font-weight: 300
+  color: #ffffff
+  outline: none
+  border: 1px solid $hueColor
+  transition: .2s
+
+
+.Subscribe_footer_left:hover
+  cursor: pointer
+  box-shadow: 0px 0px 8px 0 white
+
+
+//-----------------------Блок контакты--------------------------------------
+
+.contact_us_style
+  font-family: Poppins
+  font-size: 36px
+  font-weight: 600
+  color: #f44336
+  text-align: center
+  margin-top: 95px
+
+.sub-block-for-contacts
+  display: flex
+  justify-content: space-between
+  margin-top: 89px
+
+.left_block_contact
+  width: 386px
+
+.block_for_title
+  width: 386px
+  display: flex
+  flex-direction: column-reverse
+  min-height: 50px
+  margin-bottom: 8px
+
+
+.footer_text1
+  font-family: Roboto Condensed
+  font-size: 26px
+  color: #f44336
+
+
+
+.footer_text2
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 17px
+  font-weight: 300
+  color: #9e9e9e
+
+.footer_text2_special_color
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 17px
+  font-weight: 300
+  color: $hueColor
+
+.left_sub_block
+  min-height: 201px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.Name_footer_right,
+.Email_footer_right
+  width: 470px
+  height: 42px
+  border: 1.0px solid #999999
+  padding-left: 16px
+  padding-right: 16px
+  font-family: Roboto Condensed
+  font-size: 14px
+  line-height: 48px
+  font-weight: 400
+  color: #838383
+  margin-bottom: 21px
+
+.Message_footer_right
+  width: 470px
+  height: 168px
+  border: 1.0px solid #999999
+  font-family: Roboto Condensed
+  font-size: 14px
+  font-weight: 400
+  color: #838383
+  padding-left: 16px
+  padding-right: 16px
+  padding-top: 13px
+  margin-bottom: 17px
+  resize: none
+
+
+.submit_footer_right
+  width: 140px
+  height: 40px
+  border: 1px solid #acacac
+  background-color: #e1e1e1
+  outline: none
+  border: none
+  color: #666666
+  font-family: Roboto Condensed
+  font-size: 14px
+  text-transform: uppercase
+  font-weight: 400
+  cursor: pointer
+  transition: .2s
+  &:hover
+    background-color: #f44336
+    border: 1px solid #f44336
+    color: white
+
+
+.Name_footer_right::-webkit-input-placeholder,
+.Email_footer_right::-webkit-input-placeholder,
+.Message_footer_right::-webkit-input-placeholder
+  opacity: 1
+  transition: opacity 0.3s ease
+
+
+.Name_footer_right:focus::-webkit-input-placeholder,
+.Email_footer_right:focus::-webkit-input-placeholder,
+.Message_footer_right:focus::-webkit-input-placeholder
+  opacity: 0
+  transition: opacity 0.3s ease
+
+.map
+  margin-top: 15px
+  border: none
+
+.footer_index
+  position: relative
+  height: 71px
+  background-color: black
+  color: white
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-top: 90px
+
+.last
+  font-family: Roboto Condensed
+  font-size: 16px
+  line-height: 22px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #ffffff
+
+.last_special_color
+  color: #f44336
+
+
+//---------------------------------Стили страницы каталог-------------------------------
+//--------------------------------Настройки Header и Footer--------------------------------
+
+.contacts_index_other
+  display: flex
+  justify-content: space-between
+  height: 83px
+  align-items: center
+  padding-top: 28px
+
+
+
+.block_1_other
+  height: 161px
+  background-image: url("img/header-other.jpg")
+  border-bottom: 1px solid black
+
+
+.footer_other,
+.Name_footer_right_other,
+.Email_footer_right_other,
+.Message_footer_right_other
+  background-color: $greyColor
+
+.search_text_index_other
+  font-family: Roboto Condensed
+  font-size: 16.7px
+  font-weight: 400
+  letter-spacing: 0.01em
+  background-color: #4a4a4a
+  border-style: none
+  font-size: 16.7px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #ffffff
+  width: 158px
+  height: 38px
+  padding-left: 16px
+  padding-right: 16px
+  border: 1px solid white
+  outline: none
+
+.search_text_index_other::-webkit-input-placeholder
+  opacity: 1
+  color: white
+  transition: opacity 0.3s ease
+
+
+.search_text_index_other:focus::-webkit-input-placeholder
+  opacity: 0
+  transition: opacity 0.3s ease
+
+.main_menu__link_other
+  text-decoration: none
+  font-family: Roboto Condensed
+  font-size: 16.7px
+  line-height: 22px
+  font-weight: 400
+  letter-spacing: 0.01em
+  color: #8c8c8c
+
+.main_menu__link_other:hover
+  color: #000000
+  border-bottom: 3px solid #000000
+  padding-bottom: 22px
+
+//----------------------------------Catalog-gallery styles-----------------------------
+
+.catalog-gallery
+  background-color: $greyColor
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  &__title
+    font-family: Poppins
+    font-size: 36px
+    font-weight: 500
+    color: #f44336
+    text-align: center
+    padding-top: 170px
+    margin-bottom: 100px
+  &__content
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__game
+    margin-bottom: 90px
+  &__image1
+    background-image: url("img/game_image1.jpg")
+  &__image2
+    background-image: url("img/game_image2.jpg")
+  &__image3
+    background-image: url("img/game_image3.jpg")
+  &__image4
+    background-image: url("img/game_image4.jpg")
+  &__image6
+    background-image: url("img/game_image6.jpg")
+  &__image7
+    background-image: url("img/game_image7.jpg")
+  &__image8
+    background-image: url("img/game_image8.jpg")
+  &__button
+    width: 208px
+    height: 38px
+    border: 1.0px solid #000000
+    cursor: pointer
+    font-family: Roboto Condensed
+    font-size: 16.7px
+    line-height: 22px
+    font-weight: 400
+    letter-spacing: 0.01em
+    margin-bottom: 174px
+    margin-top: 80px
+    color: #000000
+    outline: none
+    transition: .2s
+    &:hover
+      background-color: $hueColor
+      border: 1.0px solid #acacac
+      color: white
+  &__right-arrow
+    height: 14px
+    width: 8px
+    margin-left: 2px
+
+//----------------------------------Catalog-discount styles-----------------------------
+
+@media (min-width: 1920px)
+  .center_3
+    padding: 0
+  .catalog-discount
+    display: flex
+    &__sub-block
+      height: 562px
+      width: 960px
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      padding-bottom: 153px
+      padding-left: 114px
+      &_left-img
+        background-image: url("img/discount_image1.jpg")
+      &_right-img
+        background-image: url("img/discount_image2.jpg")
+    &__title
+      font-family: Poppins
+      font-size: 18px
+      font-weight: 500
+      text-transform: uppercase
+      color: #010101
+    &__title2
+      font-family: Poppins
+      font-size: 36px
+      line-height: 36px
+      font-weight: 400
+      color: #f44336
+      margin-top: 17px
+    &__price
+      font-family: Poppins
+      font-size: 62px
+      line-height: 48px
+      font-weight: 300
+      color: #000000
+      margin-top: 28px
+      &_special-color
+        font-size: 36px
+        text-decoration: line-through
+        color: #8c8c8c
+        font-weight: 300
+    &__button
+      width: 265px
+      height: 62px
+      background-color: #e1e1e1
+      font-family: Poppins
+      font-size: 30px
+      font-weight: 500
+      letter-spacing: 0.01em
+      color: #666666
+      outline: none
+      border: 1px solid #acacac
+      cursor: pointer
+      margin-top: 19px
+      transition: .2s
+      display: flex
+      justify-content: center
+      align-items: center
+      &:hover
+        background-color: #f44336
+        color: white
+        border: 1px solid #000000
+
+
+@media (max-width: 1919px)
+  .center_3
+    padding: 0 calc(50% - 587px)
+  .catalog-discount
+    display: flex
+    background-color: $greyColor
+    &__sub-block
+      min-width: 587px
+      min-height: 344px
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      padding-left: 30px
+      padding-bottom: 30px
+      &_left-img
+        background-image: url("img/discount_image1.jpg")
+        background-size: contain
+        background-repeat: no-repeat
+      &_right-img
+        background-image: url("img/discount_image2.jpg")
+        background-size: contain
+        background-repeat: no-repeat
+    &__title
+      font-family: Poppins
+      font-size: 16px
+      font-weight: 500
+      text-transform: uppercase
+      color: #010101
+    &__title2
+      font-family: Poppins
+      font-size: 32px
+      line-height: 36px
+      font-weight: 400
+      color: #f44336
+      margin-top: 17px
+    &__price
+      font-family: Poppins
+      font-size: 36px
+      line-height: 48px
+      font-weight: 300
+      color: #000000
+      margin-top: 28px
+      &_special-color
+        font-size: 20px
+        text-decoration: line-through
+        color: #8c8c8c
+        font-weight: 300
+    &__button
+      width: 220px
+      height: 50px
+      background-color: #e1e1e1
+      font-family: Poppins
+      font-size: 20px
+      font-weight: 500
+      letter-spacing: 0.01em
+      color: #666666
+      outline: none
+      border: 1px solid #acacac
+      cursor: pointer
+      margin-top: 19px
+      transition: .2s
+      display: flex
+      justify-content: center
+      align-items: center
+      &:hover
+        background-color: #f44336
+        color: white
+        border: 1px solid #000000
+
+//--------------------------------Product site styles------------------------------------
+
+.product-card
+  display: flex
+  background-color: $greyColor
+  padding-top: 175px
+  padding-bottom: 178px
+  &__left-block
+    margin-right: 30px
+  &__selected-screen
+    width: 470px
+    height: 257px
+    &_screen1
+      width: 470px
+      height: 257px
+      background-image: url("img/product_img1.jpg")
+    &_screen2
+      width: 470px
+      height: 257px
+      background-image: url("img/product_screen2.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+    &_screen3
+      width: 470px
+      height: 257px
+      background-image: url("img/product_screen3.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+    &_screen4
+      width: 470px
+      height: 257px
+      background-image: url("img/product_screen4.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+  &__other-screens
+    display: flex
+    justify-content: space-around
+    width: 470px
+    margin-top: 85px
+  &__screen
+    width: 85px
+    height: 61px
+    transition: .3s
+    cursor: pointer
+    &:hover
+      box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.53)
+      transform: scale(1.2)
+    &_mini-screen1
+      background-image: url("img/product_sreen1.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+    &_mini-screen2
+      background-image: url("img/product_screen2.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+    &_mini-screen3
+      background-image: url("img/product_screen3.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+    &_mini-screen4
+      background-image: url("img/product_screen4.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+  &__right-block
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    font-family: Poppins
+    font-size: 36px
+    line-height: 36px
+    font-weight: 500
+    color: #000000
+  &__title2
+    font-family: Poppins
+    font-size: 36px
+    line-height: 36px
+    font-weight: 500
+    color: #f44336
+    margin-bottom: 21px
+  &__price
+    font-family: Poppins
+    font-size: 62px
+    line-height: 56px
+    color: #000000
+    margin-bottom: 15px
+  &__button
+    font-family: Poppins
+    font-size: 30px
+    font-weight: 500
+    letter-spacing: 0.01em
+    color: #666666
+    border: 1px solid #acacac
+    width: 470px
+    height: 62px
+    background-color: #e1e1e1
+    cursor: pointer
+    outline: none
+    transition: .2s
+    margin-bottom: 32px
+    display: flex
+    justify-content: center
+    align-items: center
+    &:hover
+      background-color: #f44336
+      color: #ffffff
+      border: 1px solid #f44336
+  &__text
+    font-family: Roboto Condensed
+    font-size: 12px
+    line-height: 24px
+    font-weight: 300
+    letter-spacing: 0.01em
+    color: #999999
+
+//---------------------------Product similar styles----------------------------------
+
+.product-similar
+  background-color: #e4e4e4
+  padding-bottom: 36px
+  padding-top: 49px
+  &__title
+    font-family: Poppins
+    font-size: 36px
+    font-weight: 500
+    color: #f44336
+    text-align: center
+    margin-bottom: 80px
+  &__content
+    display: flex
+    justify-content: space-between
+  &__game-text
+    width: 271px
+    min-height: 105px
+    background-color: #e4e4e4
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    padding-top: 12px
+    padding-bottom: 13px
+    text-align: center
+    padding-right: 42px
+    padding-left: 42px
+  &__button
+    display: block
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 130px
+    height: 30px
+    background-color: $greyColor
+    border: 1.0px solid #acacac
+    font-family: Poppins
+    font-size: 14.1px
+    line-height: 24px
+    font-weight: 500
+    letter-spacing: 0.01em
+    color: #666666
+    transition: .2s
+    &:hover
+      background-color: $hueColor
+      color: white
+  &__image1
+      background-image: url("img/product_similar_img1.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+  &__image2
+      background-image: url("img/product_similar_img2.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+  &__image3
+      background-image: url("img/product_similar_img3.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+  &__image4
+      background-image: url("img/product_similar_img4.jpg")
+      background-size: cover
+      background-repeat: no-repeat
+
+//-------------------------contacts site styles----------------------------------------------
+
+.contacts_blocks_site-contacts
+  background-color: #e8e8e8
+  padding-top: 95px
+  padding-bottom: 99px
+
+.contact_us_style_site-contacts
+  font-family: Poppins
+  font-size: 36px
+  font-weight: 600
+  color: #f44336
+  text-align: center
+
+.contacts-block
+  display: flex
+  justify-content: center  

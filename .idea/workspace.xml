@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f95e7bc6-cc93-401f-9317-d5a5d4b3eb25" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V7aHrsnVSQ2gpU3UCnYOtMTY0Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Интернет магазин" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95e7bc6-cc93-401f-9317-d5a5d4b3eb25" name="Default Changelist" comment="" />
+      <created>1576606504095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576606504095</updated>
+      <workItem from="1576606509424" duration="148000" />
+      <workItem from="1576606717702" duration="73000" />
+      <workItem from="1576606915481" duration="59000" />
+      <workItem from="1576688809882" duration="161000" />
+      <workItem from="1577630583895" duration="296000" />
+      <workItem from="1577742065421" duration="383000" />
+      <workItem from="1578083395342" duration="23000" />
+      <workItem from="1578084678379" duration="852000" />
+      <workItem from="1578250981577" duration="2071000" />
+      <workItem from="1578254443070" duration="1683000" />
+      <workItem from="1578261630372" duration="995000" />
+      <workItem from="1578416726936" duration="15106000" />
+      <workItem from="1578521172059" duration="3265000" />
+      <workItem from="1578753297270" duration="9423000" />
+      <workItem from="1578779451984" duration="5912000" />
+      <workItem from="1578788057130" duration="293000" />
+      <workItem from="1578862523894" duration="55000" />
+      <workItem from="1578863345531" duration="42000" />
+      <workItem from="1579447402944" duration="421000" />
+      <workItem from="1579448091494" duration="430000" />
+      <workItem from="1579449092040" duration="27000" />
+      <workItem from="1579467354187" duration="1700000" />
+      <workItem from="1579800467958" duration="456000" />
+      <workItem from="1580406834952" duration="1223000" />
+      <workItem from="1581030923669" duration="41000" />
+      <workItem from="1581249540063" duration="2099000" />
+      <workItem from="1581257822966" duration="1643000" />
+      <workItem from="1586167797786" duration="8394000" />
+      <workItem from="1586176324584" duration="5912000" />
+      <workItem from="1586186768488" duration="15107000" />
+      <workItem from="1586254234743" duration="10698000" />
+      <workItem from="1586341713322" duration="4771000" />
+      <workItem from="1586348806124" duration="503000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Configure_Path_Variables" timestamp="1578521232894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Configure_Path_Variables/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1578521232894" />
+    <state x="552" y="178" key="#Notifications" timestamp="1578416900747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1578416900747" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577742097567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1577742097567" />
+    <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1578084699671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="292" key="EditFileWatcherDialog/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1578084699671" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586296172023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1586296172023" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1581254796252" />
+    <state x="2475" y="407" key="FileChooserDialogImpl/0.0.1920.1040/1920.180.1440.860@1920.180.1440.860" timestamp="1580408057881" />
+    <state x="2266" y="314" key="SettingsEditor" timestamp="1579467735860">
+      <screen x="1920" y="180" width="1440" height="860" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1577742250661" />
+    <state x="2266" y="314" key="SettingsEditor/0.0.1920.1040/1920.180.1440.860@1920.180.1440.860" timestamp="1579467735860" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1578780044239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1578780044239" />
+  </component>
+</project>
