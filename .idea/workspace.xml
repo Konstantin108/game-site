@@ -29,7 +29,6 @@
   <component name="ProjectId" id="1V7aHrsnVSQ2gpU3UCnYOtMTY0Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Интернет магазин" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../12123" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -46,18 +45,6 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,11 +90,16 @@
       <workItem from="1586341713322" duration="4771000" />
       <workItem from="1586348806124" duration="503000" />
       <workItem from="1586354243622" duration="337000" />
+      <workItem from="1586359655075" duration="208000" />
+      <workItem from="1586775458875" duration="130000" />
+      <workItem from="1586861815361" duration="627000" />
+      <workItem from="1586869457513" duration="1487000" />
+      <workItem from="1586898761300" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Configure_Path_Variables" timestamp="1578521232894">
@@ -118,24 +110,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1578416900747" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577742097567">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-885" y="407" key="FileChooserDialogImpl" timestamp="1586901957962">
+      <screen x="-1440" y="180" width="1440" height="860" />
     </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1577742097567" />
-    <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1578084699671">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="595" y="292" key="EditFileWatcherDialog/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1578084699671" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586296172023">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1586296172023" />
+    <state x="-885" y="407" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@-1440.180.1440.860" timestamp="1586901957962" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1586775586142" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1581254796252" />
     <state x="2475" y="407" key="FileChooserDialogImpl/0.0.1920.1040/1920.180.1440.860@1920.180.1440.860" timestamp="1580408057881" />
     <state x="2266" y="314" key="SettingsEditor" timestamp="1579467735860">
       <screen x="1920" y="180" width="1440" height="860" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.180.1440.860@0.0.1920.1040" timestamp="1577742250661" />
     <state x="2266" y="314" key="SettingsEditor/0.0.1920.1040/1920.180.1440.860@1920.180.1440.860" timestamp="1579467735860" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1578780044239">
       <screen x="0" y="0" width="1920" height="1040" />
